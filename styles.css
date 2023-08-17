@@ -74,9 +74,11 @@ body {
         padding: 25px 28px;
         margin-bottom: 15px;
     }
+
     .bottom {
         padding: 14px 17px;
     }
+
     .btn {
         width: 68.37px;
         height: 68.37px;
@@ -84,21 +86,25 @@ body {
         font-size: 20px;
         margin: 10px;
     }
+
     .bb {
         width: 162.5px;
     }
 }
+
 @media screen and (max-width: 420px) {
     .top {
-        max-width: 239.250px;
+        max-width: 217.25px;
         min-height: 28px;
         font-size: 12px;
         padding: 25px 28px;
         margin-bottom: 13px;
     }
+
     .bottom {
         padding: 14px 17px;
     }
+
     .btn {
         width: 47.864px;
         height: 47.864px;
@@ -106,8 +112,9 @@ body {
         font-size: 18px;
         margin: 5.185px;
     }
+
     .bb {
-        width: 106.099px;
-height: 47.864px;
+        width: 109.099px;
+        height: 47.864px;
     }
 }
