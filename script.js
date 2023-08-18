@@ -5,56 +5,77 @@ $(document).ready(function(){
     }
     $('.b1').click(function(){
         insert(1);
+        $(this).css('box-shadow','none');
     })
     $('.b2').click(function(){
         insert(2);
+        $(this).css('box-shadow','none');
     })
     $('.b3').click(function(){
         insert(3);
+        $(this).css('box-shadow','none');
     })
     $('.b4').click(function(){
         insert(4);
+        $(this).css('box-shadow','none');
     })
     $('.b5').click(function(){
         insert(5);
+        $(this).css('box-shadow','none');
     })
     $('.b6').click(function(){  
         insert(6);
+        $(this).css('box-shadow','none');
     })
     $('.b7').click(function(){  
         insert(7);
+        $(this).css('box-shadow','none');
     })
     $('.b8').click(function(){  
         insert(8);
+        $(this).css('box-shadow','none');
     })
     $('.b9').click(function(){  
         insert(9);
+        $(this).css('box-shadow','none');
     })
     $('.b0').click(function(){  
         insert(0);
+        $(this).css('box-shadow','none');
     })  
     $('.bplus').click(function(){  
         insert('+');
+        $(this).css('box-shadow','none');
     })
     $('.bminus').click(function(){  
         insert('-');
+        $(this).css('box-shadow','none');
     })  
     $('.bmul').click(function(){
         insert('*');
+        $(this).css('box-shadow','none');
     })
     $('.bdiv').click(function(){
         insert('/');
+        $(this).css('box-shadow','none');
     })
     $('.bdot').click(function(){
         insert('.');
+        $(this).css('box-shadow','none');
     })
     $('.bdel').click(function(){    
         $('.screen').text($('.screen').text().slice(0,-1));
+        $(this).css('box-shadow','none');
     })
     $('.bre').click(function(){  
         $('.screen').text('');
+        $(this).css('box-shadow','none');
     })
     $('.bequ').click(function(){
         $('.screen').text(eval($('.screen').text()));
+        $(this).css('box-shadow','none');
+    })
+    $('.btn').mouseleave(function(){
+        $(this).css('box-shadow','0px 4px 0px 0px #B2A295');
     })
 })

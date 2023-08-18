@@ -56,6 +56,8 @@ body {
     background-color: white;
     font-family: gilroy-bold;
     border: none;
+    cursor: pointer;
+    user-select: none;
 }
 
 .b {
